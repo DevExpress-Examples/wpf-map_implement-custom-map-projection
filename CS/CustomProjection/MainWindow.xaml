@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:CustomProjection"
+        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map" 
+        x:Class="CustomProjection.MainWindow"
+        Title="MainWindow" Height="549" Width="526">
+    <Grid>
+        <dxm:MapControl>
+            <dxm:MapControl.CoordinateSystem>
+                <dxm:GeoMapCoordinateSystem>
+                    <dxm:GeoMapCoordinateSystem.Projection>
+                        <local:HammerAitoffProjection/>
+                    </dxm:GeoMapCoordinateSystem.Projection>
+                </dxm:GeoMapCoordinateSystem>
+            </dxm:MapControl.CoordinateSystem>
+            <dxm:VectorLayer>
+                <dxm:ShapefileDataAdapter FileUri="Data/Countries.shp" />
+            </dxm:VectorLayer>
+        </dxm:MapControl>
+    </Grid>
+</Window>
