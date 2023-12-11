@@ -7,7 +7,7 @@
 # Map for WPF - How to Implement Custom Map Projection
 
 
-This example describes how to implement custom map projection (the [Hammer-Aitoff])(http://paulbourke.net/geometry/transformationprojection/) projection). 
+This example describes how to implement custom map projection (the [Hammer-Aitoff](http://paulbourke.net/geometry/transformationprojection/) projection). 
 
 [Map](./image/Map.png)
 
