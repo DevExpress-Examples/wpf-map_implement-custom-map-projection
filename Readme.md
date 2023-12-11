@@ -9,7 +9,7 @@
 
 This example describes how to implement custom map projection (the [Hammer-Aitoff](http://paulbourke.net/geometry/transformationprojection/) projection). 
 
-[Map](./image/Map.png)
+![Map](./image/Map.png)
 
 To create a custom projection, inherit the [ProjectionBase](https://docs.devexpress.com/WPF/DevExpress.Xpf.Map.ProjectionBase) class and override the following methods of the base class:
 
